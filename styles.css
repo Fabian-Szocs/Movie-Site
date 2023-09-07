@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #331D2C;
+  color: #EFE1D1;
+
+}
+
+
+h3 {
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+  padding: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #EFE1D1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: 'Rajdhani', sans-serif;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.topnav .search-cointainer {
+  float: right;
+}
+
+form {
+  background-color: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 12px  #563f54;
+}
+
+input {
+  all: unset;
+  font: 15px system-ui;
+  color: #ffff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+
+.thumbnail {
+  height: 350px;
+  width: 300px;
+  border-radius: 19px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+.card {
+  border-radius: 19px;
+  padding: 15px;
+  text-align: center;
+  background-color: #3F2E3E;
+
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px  #563f54;
+}
+
+
+.img {
+  width: 36px;
+  height: 36px;
+}
+
+.main {
+  text-align: center;
+}
